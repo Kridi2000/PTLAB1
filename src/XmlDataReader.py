@@ -3,6 +3,7 @@ from Types import DataType
 from DataReader import DataReader
 import xml.etree.ElementTree as ET
 
+
 class XmlDataReader(DataReader):
 
     def __init__(self) -> None:
