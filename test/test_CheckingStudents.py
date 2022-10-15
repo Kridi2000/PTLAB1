@@ -18,7 +18,8 @@ class TestCheckingStudents:
 
         return data, student
 
-    def test_init_checking_students(self, input_data: tuple[RatingsType,str]) -> None:
+    def test_init_checking_students(self, input_data: tuple[RatingsType, str]) \
+            -> None:
 
         checking_students = CheckingStudents(input_data[0])
         assert input_data[0] == checking_students.data

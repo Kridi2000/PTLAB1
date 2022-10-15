@@ -30,7 +30,7 @@ def main():
 
     print('\nПроверка студентов, имеющих 100 баллов по всем дисциплинам:')
     if CheckingStudents(rating).check():
-        print('   Студент ' + CheckingStudents(rating).check() + \
+        print('   Студент ' + CheckingStudents(rating).check() +
               ' имеет 100 баллов по всем дисциплинам')
     else:
         print('   Студенты, имеющие 100 баллов по всем дисциплинам '
