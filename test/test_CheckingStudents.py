@@ -18,7 +18,7 @@ class TestCheckingStudents:
 
         return data, student
 
-    def test_init_checking_students(self, input_data: tuple[RatingsType, str]) \
+    def test_init_checking_students(self, input_data: tuple[RatingsType, str])\
             -> None:
 
         checking_students = CheckingStudents(input_data[0])
